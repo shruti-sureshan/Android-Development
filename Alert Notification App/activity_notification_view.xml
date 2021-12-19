@@ -1,0 +1,15 @@
+<LinearLayout
+       android:layout_width="match_parent" android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+   <TextView
+       android:layout_width="fill_parent" android:layout_height="wrap_content"
+       android:gravity="center" android:text="Your Notification Text..."
+       android:layout_margin="20dp" android:textColor="@color/colorAccent"
+       android:textSize="25dp" />
+   <TextView
+       android:id="@+id/text_message" android:layout_width="match_parent"
+       android:layout_height="wrap_content" android:layout_margin="20dp"
+       android:textSize="20dp"/>
+</LinearLayout>
+

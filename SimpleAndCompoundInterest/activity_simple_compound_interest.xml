@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Factorial"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Interest"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Principal"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inp_si_principal"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter rate"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inp_si_rate"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter time (in months)"
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inp_si_time"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/submit_si"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:id="@+id/op_si"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compound Interest"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Principal"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inp_ci_principal"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter rate"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inp_ci_rate"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter time (in months)"
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inp_ci_time"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter n"
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inp_ci_n"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/submit_ci"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:id="@+id/op_ci"/>
+
+    </LinearLayout>
+
+</LinearLayout>

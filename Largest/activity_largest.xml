@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Palindrome"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Largest"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter num1"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="numberDecimal"
+            android:id="@+id/inp_large_n1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter num2"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="numberDecimal"
+            android:id="@+id/inp_large_n2"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter num3"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"
+            android:id="@+id/inp_large_n3"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/submit_largest"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:id="@+id/op_largest"/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<LinearLayout
+       android:layout_width="match_parent" android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:gravity="center" android:orientation="vertical">
+       <TextView
+       android:layout_width="wrap_content" android:layout_height="wrap_content"
+       android:text="Enter some text..." android:textSize="20dp"
+       android:textColor="@color/colorAccent"/>
+       <EditText
+       android:layout_width="wrap_content" android:layout_height="wrap_content"
+       android:width="300dp" android:id="@+id/notify_text"/>
+       <Button
+       android:layout_width="wrap_content" android:layout_height="wrap_content"
+       android:text="Send Notification" android:layout_marginTop="20dp"/>
+</LinearLayout>
